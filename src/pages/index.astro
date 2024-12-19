@@ -2,6 +2,7 @@
 
 ---
 
+<!-- run prettier: npx prettier --write src/pages/index.astro -->
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -9,11 +10,17 @@
       name="viewport"
       content="width=device-width, height=device-height, initial-scale=1.0"
     />
-    <title>Erin's Website</title>
-    <img src="static/memoji.png" />
-    <meta name="description" content="Heyyy" />
-    <!-- <link rel="canonical" href="http://evenbettermotherfucking.website" /> -->
-    <style>
+    <meta name="description" content="Heyyy" /><style>
+      header img {
+        float: left;
+        width: 70px;
+        height: 70px;
+      }
+
+      header h1 {
+        position: relative;
+        top: 20px;
+      }
       body {
         margin: 5% auto;
         background: #f2f2f2;
@@ -36,38 +43,24 @@
       a:hover {
         border-bottom: 0;
       }
-    </style>
-  </head>
+    </style></head
+  >
   <body>
     <header>
+      <img src="/static/memoji.png" />
       <h1>Erin's Website</h1>
-      <aside>My short bio 😍</aside>
     </header>
+
     <h2>
       <strong>About me</strong>
     </h2>
     <p>Paragraph about me</p>
-    <!-- <ul>
-      <li>Shit's <em>still</em> lightweight and loads fast;</li>
-      <li><em>Still</em> fits on all of your shitty screens;</li>
-      <li><em>Still</em> looks the same in all of your shitty browsers;</li>
-      <li>
-        This motherfucker's <em>still</em> accessible to every asshole that
-        visits your site;
-      </li>
-      <li>Shit's <em>still</em> legible and gets your fucking point across;</li>
-      <li>
-        <strong
-          >Plus a hipstered domain extension and beautiful typography.</strong
-        >
-      </li>
-    </ul> -->
     <h2>Resume</h2>
     <p>My resume</p>
     <h2>Projects</h2>
     <blockquote>
       "Erin is so cool"<br />
-      - <a href="http://bettermotherfuckingwebsite.com"><em>BMFW</em></a>
+      - <a href="http://google.com"><em>BMFW</em></a>
     </blockquote>
 
     <h1>For fun</h1>
@@ -82,12 +75,6 @@
     </blockquote>
     <hr />
     <h2>Epilogue</h2>
-    <p>
-      Inspired by
-      <a href="https://evenbettermotherfucking.website/"
-        >https://evenbettermotherfucking.website/</a
-      >
-    </p>
+    <p>Inspired by</p>
   </body>
 </html>
-
