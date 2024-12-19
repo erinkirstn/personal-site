@@ -1,5 +1,6 @@
 ---
-
+import { Image } from "astro:assets";
+import myMemoji from "../images/memoji.png";
 ---
 
 <!-- run prettier: npx prettier --write src/pages/index.astro -->
@@ -47,7 +48,7 @@
   >
   <body>
     <header>
-      <img src="/public/memoji.png" />
+      <Image src={myMemoji} alt="Erin's memoji icon" />
       <h1>Erin's Website</h1>
     </header>
 
