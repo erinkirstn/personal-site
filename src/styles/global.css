@@ -40,8 +40,6 @@ a {
 a:hover {
   border-bottom: 0;
 }
-.bottom {
-}
 .navbar {
   position: fixed;
   top: 0px;

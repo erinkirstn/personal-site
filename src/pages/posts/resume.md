@@ -1,12 +1,11 @@
 ---
-title: "My First Blog Post"
-pubDate: 2022-07-01
-description: "This is the first post of my new Astro blog."
-author: "Astro Learner"
+title: "Resume"
+pubDate: 2024-12-29
+description: "Erin's professional resume"
+author: "Erin Kirsten"
 image:
   url: "https://docs.astro.build/assets/rose.webp"
   alt: "The Astro logo on a dark background with a pink glow."
-tags: ["astro", "blogging", "learning in public"]
 layout: ../../layouts/BaseLayout.astro
 ---
 
