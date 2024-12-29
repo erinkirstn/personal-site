@@ -1,6 +1,8 @@
 ---
 import { Image } from "astro:assets";
 import myMemoji from "../images/memoji.png";
+import dragonImage from "../images/dragon.jpg";
+import "../styles/global.css";
 ---
 
 <!-- run prettier: npx prettier --write src/pages/index.astro --><!-- Inspo page: https://kjelsrud.dev/ -->
@@ -11,63 +13,38 @@ import myMemoji from "../images/memoji.png";
       name="viewport"
       content="width=device-width, height=device-height, initial-scale=1.0"
     />
-    <meta name="description" content="Heyyy" /><style>
-      header img {
-        float: left;
-        width: 70px;
-        height: 70px;
-      }
-
-      header h1 {
-        position: relative;
-        top: 20px;
-      }
-      body {
-        margin: 5% auto;
-        background: #f2f2f2;
-        color: #444444;
-        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-          Helvetica, Arial, sans-serif;
-        font-size: 16px;
-        line-height: 1.8;
-        text-shadow: 0 1px 0 #ffffff;
-        max-width: 73%;
-      }
-      code {
-        background: white;
-      }
-      a {
-        border-bottom: 1px solid #444444;
-        color: #444444;
-        text-decoration: none;
-      }
-      a:hover {
-        border-bottom: 0;
-      }
-    </style></head
+    <meta name="description" content="Heyyy" /></head
   >
   <body>
-    <a href="/">Home</a>
-    <a href="/about/">About</a>
-    <header>
-      <Image src={myMemoji} alt="Erin's memoji icon" />
-      <h1>Erin Kirsten</h1>
-    </header>
+    <!-- <div class="navbar">
+      <a href="/">Home</a>
+      <a href="/about/">About</a>
+    </div> -->
 
-    <i
-      ><p>
-        Computer Science + Statistics Student at the University of Illinois
-        Urbana-Champaign.
-      </p></i
-    >
-    <h2>Professional</h2>
-    <p>📄 - <a href="/"> Resume</a></p>
-    <p>💻 - <a href="/">Projects</a></p>
-    <h2>Personal</h2>
-    <p>🎶 - <a href="/"> Muisc</a></p>
-    <p>📚 - <a href="/"> Bookshelf</a></p>
-    <p>🥾 - <a href="/"> Hikes</a></p>
-    <hr />
-    <i>Contact: erin.kirstn@gmail.com</i>
+    <div class="header"></div>
+    <div class="main">
+      <div class="title">
+        <Image src={myMemoji} alt="Erin's memoji icon" />
+        <h1>Erin Kirsten</h1>
+      </div>
+      <i
+        ><p>
+          Computer Science + Statistics Student at the University of Illinois
+          Urbana-Champaign.
+        </p></i
+      >
+      <h2>Professional</h2>
+      <p>📄 - <a href="/posts/post-1/"> Resume</a></p>
+      <p>💻 - <a href="/">Projects</a></p>
+      <h2>Personal</h2>
+      <p>🎶 - <a href="/"> Music</a></p>
+      <p>📚 - <a href="/"> Bookshelf</a></p>
+      <p>🥾 - <a href="/"> Hikes</a></p>
+
+      <div class="bottom">
+        <hr />
+        <i>Contact: erin.kirstn@gmail.com</i>
+      </div>
+    </div>
   </body>
 </html>
