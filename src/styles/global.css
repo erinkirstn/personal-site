@@ -40,6 +40,12 @@ a {
 a:hover {
   border-bottom: 0;
 }
+.header a {
+  border-bottom: 1px solid #f5f2f2;
+  color: #f5f2f2;
+  text-decoration: none;
+}
+
 .navbar {
   position: fixed;
   top: 0px;

@@ -9,9 +9,7 @@ image:
 layout: ../../layouts/BaseLayout.astro
 ---
 
-# Resume - Erin Kirsten
-
-**Email:** erinlk3@illinois.edu | [LinkedIn](https://www.linkedin.com/in/erin-kirsten)
+# Erin Kirsten Resume
 
 ---
 
@@ -49,21 +47,21 @@ _Computer Science Tutor_<span style="float: right;">January 2020 – August 2022
 
 ## Activities
 
-**[Disruption Lab at Gies](https://giesbusiness.illinois.edu/disruption-lab) – Relational Database Management System Project** <span style="float: right;">Champaign, IL</span>   
+**[Disruption Lab at Gies](https://giesbusiness.illinois.edu/disruption-lab) – Relational Database Management System Project** <span style="float: right;">Champaign, IL</span>  
 _Software Engineer_ <span style="float: right;">September 2023 – Present</span>
 
 - Transform State of Illinois 136-question survey data into an easily navigable retrieval interface.
 - Link front end to back end data retrieval using Google Cloud Platform SQL and React web application.
 - Maintain efficient collaboration using Agile development practices such as stand-ups and sprint reviews.
 
-**[Illinois CS Student Ambassador/Research Scholar (CS STARS)](https://siebelschool.illinois.edu/broadening-participation-computing/programs/csambassadors)**<span style="float: right;"> Champaign, IL </span>   
+**[Illinois CS Student Ambassador/Research Scholar (CS STARS)](https://siebelschool.illinois.edu/broadening-participation-computing/programs/csambassadors)**<span style="float: right;"> Champaign, IL </span>  
 _Ambassador_<span style="float: right;"> August 2022 – Present </span>
 
 - Serve as ambassador in departmental efforts to recruit undergraduate women in Computer Science.
 - Organize annual computer science research fair with over 200 students in attendance.
 - Build strong community of women in weekly class focused on developing leadership and research skills.
 
-**[Girls Who Code](https://publish.illinois.edu/girlswhocode/)**<span style="float: right;">Champaign, IL</span>   
+**[Girls Who Code](https://publish.illinois.edu/girlswhocode/)**<span style="float: right;">Champaign, IL</span>  
 _Facilitator_<span style="float: right;">August 2022 – August 2024</span>
 
 - Lead weekly meetings by delivering innovative and engaging JavaScript or Python lessons to 10-15 female computer science students.

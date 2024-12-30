@@ -1,14 +1,18 @@
 ---
 import "../styles/markdown.css";
+import Navigation from "../components/Navigation.astro";
 ---
 
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title><slot name="title">My Blog</slot></title>
+    <title>Erin's Resume</title>
   </head>
   <body>
-    <slot />
+    <Navigation />
+    <div class="content">
+      <slot />
+    </div>
   </body>
 </html>

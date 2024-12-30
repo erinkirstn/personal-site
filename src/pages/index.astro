@@ -1,7 +1,19 @@
 ---
+import {
+  FacebookShareButton,
+  HackerNewsShareButton,
+  LinkedInShareButton,
+  MediumShareButton,
+  RedditShareButton,
+  TwitterShareButton,
+  WhatsAppShareButton,
+  SocialShare,
+} from "astro-social-share";
+
+const BUTTONS = [TwitterShareButton, FacebookShareButton];
+import Navigation from "../components/Navigation.astro";
 import { Image } from "astro:assets";
 import myMemoji from "../images/memoji.png";
-import dragonImage from "../images/dragon.jpg";
 import "../styles/global.css";
 ---
 
@@ -16,12 +28,7 @@ import "../styles/global.css";
     <meta name="description" content="Heyyy" /></head
   >
   <body>
-    <!-- <div class="navbar">
-      <a href="/">Home</a>
-      <a href="/about/">About</a>
-    </div> -->
-
-    <div class="header"></div>
+    <Navigation />
     <div class="main">
       <div class="title">
         <Image src={myMemoji} alt="Erin's memoji icon" />
@@ -41,10 +48,15 @@ import "../styles/global.css";
       <p>📚 - <a href="/"> Bookshelf</a></p>
       <p>🥾 - <a href="/"> Hikes</a></p>
 
-      <div class="bottom">
+      <SocialShare
+        buttons={BUTTONS}
+        description="Description of the page/post"
+        title="Page Title"
+      />
+      <!-- <div class="bottom">
         <hr />
         <i>Contact: erin.kirstn@gmail.com</i>
-      </div>
+      </div> -->
     </div>
   </body>
 </html>
