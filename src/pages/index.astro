@@ -1,16 +1,6 @@
 ---
-import {
-  FacebookShareButton,
-  HackerNewsShareButton,
-  LinkedInShareButton,
-  MediumShareButton,
-  RedditShareButton,
-  TwitterShareButton,
-  WhatsAppShareButton,
-  SocialShare,
-} from "astro-social-share";
+import Socials from "fulldev-ui/components/Socials.astro";
 
-const BUTTONS = [TwitterShareButton, FacebookShareButton];
 import Navigation from "../components/Navigation.astro";
 import { Image } from "astro:assets";
 import myMemoji from "../images/memoji.png";
@@ -48,11 +38,14 @@ import "../styles/global.css";
       <p>📚 - <a href="/"> Bookshelf</a></p>
       <p>🥾 - <a href="/"> Hikes</a></p>
 
-      <SocialShare
-        buttons={BUTTONS}
-        description="Description of the page/post"
-        title="Page Title"
+      <Socials
+        socials={[
+          "https://www.instagram.com/erin.kirstn/",
+          "https://www.linkedin.com/in/erin-kirsten/",
+          "https://github.com/fulldotdev/ui",
+        ]}
       />
+
       <!-- <div class="bottom">
         <hr />
         <i>Contact: erin.kirstn@gmail.com</i>
