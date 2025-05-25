@@ -1,8 +1,9 @@
 ---
-import Socials from "fulldev-ui/components/Socials.astro";
-
 import Navigation from "../components/Navigation.astro";
+import Socials from "../components/Socials.astro";
+
 import { Image } from "astro:assets";
+
 import myMemoji from "../images/memoji.png";
 import "../styles/global.css";
 ---
@@ -23,6 +24,7 @@ import "../styles/global.css";
       <div class="title">
         <Image src={myMemoji} alt="Erin's memoji icon" />
         <h1>Erin Kirsten</h1>
+        <Socials />
       </div>
       <i
         ><p>
@@ -30,26 +32,14 @@ import "../styles/global.css";
           Urbana-Champaign.
         </p></i
       >
+
       <h2>Professional</h2>
       <p>📄 - <a href="/posts/resume/"> Resume</a></p>
-      <p>💻 - <a href="/">Projects</a></p>
+      <p>💻 - <a href="/posts/projects/">Projects</a></p>
       <h2>Personal</h2>
-      <p>🎶 - <a href="/"> Music</a></p>
+      <p>🎶 - <a href="/music"> Music</a></p>
       <p>📚 - <a href="/"> Bookshelf</a></p>
       <p>🥾 - <a href="/"> Hikes</a></p>
-
-      <Socials
-        socials={[
-          "https://www.instagram.com/erin.kirstn/",
-          "https://www.linkedin.com/in/erin-kirsten/",
-          "https://github.com/fulldotdev/ui",
-        ]}
-      />
-
-      <!-- <div class="bottom">
-        <hr />
-        <i>Contact: erin.kirstn@gmail.com</i>
-      </div> -->
     </div>
   </body>
 </html>

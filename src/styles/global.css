@@ -1,18 +1,13 @@
 .title img {
-  float: left;
   width: 70px;
   height: 70px;
 }
-.header {
-  size: 100%;
-  background-image: url("../images/irises3.jpg");
-  background-size: cover;
-  height: 175px;
-  margin-top: 0;
+h1 {
+  margin-bottom: 0%;
 }
-.title h1 {
-  position: relative;
-  top: 20px;
+.title {
+  display: flex;
+  flex-direction: row;
 }
 body {
   size: 100%;
@@ -23,14 +18,12 @@ body {
   font-size: 16px;
   line-height: 1.8;
   text-shadow: 0 1px 0 #ffffff;
-  margin: 0;
+  margin: 0px;
 }
 .main {
   margin: 0 auto;
+  padding-top: 180px;
   max-width: 73%;
-}
-code {
-  background: white;
 }
 a {
   border-bottom: 1px solid #444444;
@@ -40,19 +33,22 @@ a {
 a:hover {
   border-bottom: 0;
 }
-.header a {
-  border-bottom: 1px solid #f5f2f2;
-  color: #f5f2f2;
-  text-decoration: none;
-}
 
-.navbar {
-  position: fixed;
-  top: 0px;
-  width: 100%;
-}
 .bottom {
   position: fixed;
   bottom: 20px;
   width: 70%;
+}
+
+.social {
+  display: flex;
+  flex-direction: row;
+  width: 40px;
+  margin: 0 auto;
+  border-bottom: 0;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: auto auto auto;
 }

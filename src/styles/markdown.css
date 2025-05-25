@@ -11,5 +11,6 @@ body {
 }
 .content {
   margin: 0 auto;
+  padding-top: 180px;
   max-width: 73%;
 }
