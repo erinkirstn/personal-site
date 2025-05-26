@@ -15,6 +15,6 @@ layout: ../../layouts/BaseLayout.astro
 
 ## [UIUC Alternative Spring Break Website](https://uiuc-asb.netlify.app/)
 
-- Inspired by a Spring 2025 volunteer trip, I made this website to promote the activities of the University of Illinois YMCA Alternative Spring Break club
+- Inspired by a volunteer trip, I made this website to promote the activities of the University of Illinois YMCA Alternative Spring Break club.
 
-- Created with Astro, Hosted on Netlify
+- Webapp created with Astro and Hosted on Netlify.
