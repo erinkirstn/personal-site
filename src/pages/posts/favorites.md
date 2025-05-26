@@ -9,7 +9,7 @@ image:
 layout: ../../layouts/BaseLayout.astro
 ---
 
-# Favorites
+# Erin's Current Favorites
 
 ---
 
@@ -20,3 +20,15 @@ layout: ../../layouts/BaseLayout.astro
 
 [i1]: https://podcasts.apple.com/us/podcast/daily-tech-news-show/id790864884
 [i2]: https://podcasts.apple.com/us/podcast/machine-learning-guide/id1204521130
+
+## Albums
+
+<!-- | ![Alt tag](../../images/masterpiece.jpg) | ![Alt tag](../../images/masterpiece.jpg) | ![Alt tag](../../images/masterpiece.jpg) |
+|:--:|:--:|:--:|
+| *Masterpiece*  <br> *Big Thief* | *Masterpiece*  <br> *Big Thief* | *Masterpiece*  <br> *Big Thief* | -->
+
+
+![Masterpiece](../../images/masterpiece.jpg)
+|:--:|
+|*Masterpiece* |
+|*Big Thief*| 

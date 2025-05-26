@@ -14,3 +14,9 @@ body {
   padding-top: 180px;
   max-width: 73%;
 }
+
+img {
+  width: 200px;
+  height: 200px;
+  border-radius: 6px;
+}
