@@ -16,8 +16,7 @@ layout: ../../layouts/BaseLayout.astro
 ## Podcasts
 
 [![Alt tag](../../images/dtns_logo.jpeg)][i1]
-[![Alt tag](../../images/mlguide.jpeg)][i1]
+[![Alt tag](../../images/mlguide.jpeg)][i2]
 
 [i1]: https://podcasts.apple.com/us/podcast/daily-tech-news-show/id790864884
 [i2]: https://podcasts.apple.com/us/podcast/machine-learning-guide/id1204521130
-
